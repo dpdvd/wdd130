@@ -17,7 +17,7 @@ aside img {
 main img {
     width: 200px;
     height: auto;
-    border: 1p solid steelblue;
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
@@ -45,6 +45,6 @@ p {
 
 footer {
     margin-top: 1em;
-    border-top: 2em solid #000;
+    border-top: 1px solid #000;
     text-align: center;
 }
