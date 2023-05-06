@@ -11,7 +11,7 @@ main {
 aside {
     position: relative;
     width: 20rem;
-    text-align: right;
+    text-align: center;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* to use the initial color as a shadow */
     padding: 1em;
@@ -21,6 +21,7 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+
 }
 main img {
     float: right;
@@ -69,8 +70,8 @@ footer {
 
 aside h2 {
     position: absolute;
-    margin: 5%;
-    color: #14eb75;
-    text-align: center
+    top: 30px;
+    left: 120px;
+    color: #ffffff;
     
   }
