@@ -9,6 +9,9 @@ main {
 }
 
 aside {
+    position: relative;
+    width: 20rem;
+    text-align: right;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* to use the initial color as a shadow */
     padding: 1em;
@@ -65,12 +68,9 @@ footer {
     color: #000;
 }
 
-aside {
-    width: 20rem;
-    text-align: right;
-}
 
 aside h2 {
+    position: absolute;
     margin-bottom: 5rem;
     top: 47px;
     left: 150px;
