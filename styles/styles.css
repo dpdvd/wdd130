@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
@@ -34,12 +40,13 @@ nav a {
 }
 
 h1 {
+    margin: 1rem;
     color: steelblue;
 }
 
 
 p {
-    padding: 0;
+    padding: 1rem;
 }
 
 footer {
@@ -47,3 +54,27 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+}
+
+main img {
+    float: right
+}
+
+aside h2 {
+    margin-bottom: 5%;
+    top: 47px;
+    left: 150px;
+  }
