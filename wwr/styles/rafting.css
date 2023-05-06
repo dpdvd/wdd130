@@ -80,8 +80,8 @@ header {
   }
   
   .hero article p {
-    float: left /* Adjusted the float to right */
-    margin-left 1rem; /* Added margin to create space between the image and text */
+    float: left; /* Adjusted the float to right */
+    margin-left: 1rem; /* Added margin to create space between the image and text */
   }
   
   .hero article img {
