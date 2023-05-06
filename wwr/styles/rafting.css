@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto:wght@300&display=swap');
+
+
+:root {
+    --primary-color: #001d3d;
+    --secondary-color: #228B22;
+    --accent1-color: #12529b;
+    --accent2-color: #ffa500;
+  
+    --heading-font: 'Darumadrop One', serif;
+    --paragraph-font: 'Roboto', serif;
+  
+    --nav-background-color: #e6e8f8;
+    --nav-link-color: #001d3d;
+    --nav-hover-link-color: #e6e8f8;
+    --nav-hover-background-color: #001d3d;
+    --nav-link-visited-color: #fff;
+  }
+
+
+
+.sociallinks a {
+    text-decoration: none;
+  border-bottom: none; /* Remove underline */
+  }
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    max-width: 1200px; /* Limit the width of the page */
+    margin: 0 auto; /* Center the container element horizontally */
+  }
+
+
+a {
+    color: var(--secondary-color); /* Set link color */
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-top: 0;
+  }
+
+header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+
+.hero {
+    position: relative;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--background-color);
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .hero article {
+    position: absolute;
+    top: 50%;
+    bottom: 170px;
+    right: 200px; /* Adjusted the right position to 0 */
+    width: 700px;
+    background-color: rgba(45, 83, 121, 0.8);
+    padding: 2rem;
+  }
+  
+  .hero article p {
+    float: left /* Adjusted the float to right */
+    margin-left: 1rem; /* Added margin to create space between the image and text */
+  }
+  
+  .hero article img {
+    width: 250px;
+    float: right;
+  }
