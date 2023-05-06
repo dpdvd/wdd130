@@ -71,6 +71,8 @@ aside {
 
 main img {
     float: right;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 aside h2 {
